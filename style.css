@@ -1,0 +1,129 @@
+body {
+    background-color: #131313;
+    margin-top: 100px;
+    color: white;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.container {
+    width: 1171px;
+    position: relative;
+    margin: auto;
+}
+
+.content {
+    display: grid;
+    grid-template-areas: 
+    "blank nav"
+    "description image";
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.nav > ul {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0px;
+}
+
+.nav li {
+    list-style: none;
+    margin-right: 55px;
+    font-size: 14px;
+}
+
+.nav-item {
+   color: rgba(255, 255, 255, 0.3);
+   padding-bottom: 10px;
+   font-family: "Yeseva One";
+   text-transform: uppercase;
+}
+
+.active {
+    border-bottom: 1px solid #E3B873;
+    color: #E3B873;
+}
+
+.image {
+    grid-area: image;
+    padding-top: 30px;
+}
+
+.description {
+    grid-area: description;
+    width: 442px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    width: 253px;
+}
+
+.title {
+    color: #E3B873;
+    font-family: "Yeseva One";
+    text-transform: uppercase;
+}
+
+.title h3 {
+    display: inline-block;
+    font-size: 27px;
+    line-height: 37.42px;
+    font-weight: 400;
+}
+
+.title div {
+    position: relative;
+    top: 50px
+}
+
+.property {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.page {
+    display: flex;
+    margin-top: 60px;
+    cursor: pointer;
+    gap: 17px;
+}
+
+.page_arrow {
+    margin-right: 20px;
+}
+
+.page_arrow_2 {
+    margin-left: 20px;
+}
+
+.choose {
+    
+    background-color: white;
+    width: 9px;
+    height: 9px;
+    border-radius: 30px;
+    border: none;
+}
+
+
+
+
+.point-disable {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 9px;
+    height: 9px;
+    border-radius: 30px;
+    border: none;
+
+}
+
+
